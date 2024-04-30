@@ -1,0 +1,261 @@
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About us</title>
+  <link rel="stylesheet" href="{% static 'about.css' %}" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="icon" href="{% static 'PICO-LOGO-SHORT.png' %}" type="image/gif">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+</head>
+
+<body>
+
+  
+ <section class="aboutus_main">
+   <!-- -----------------------------------------------company---------------------------------------------------------------- -->
+   <div class="company">
+    <div class="img">
+      <img src="https://raw.githubusercontent.com/pico-india/main-django/main/static/about-team.jpg" alt="" />
+    </div>
+    <div class="company-info">
+      <span>EDUCATION <span class="our">FOR EVERYONE</span></span>
+      <p>
+        <b>Study door</b> , we're dedicated to fostering learning, igniting curiosity, and empowering individuals through education, programming, and coaching. Our platform serves as a beacon for aspiring learners and seasoned professionals alike, offering a wealth of resources, courses, and guidance to help you thrive in the world of technology and beyond. Whether you're looking to master a new programming language, enhance your coding skills, or explore the vast landscape of educational opportunities, we're here to support you every step of the way. Welcome to [Your Company Name], where knowledge meets innovation, and where learning is the cornerstone of success."
+      </p>
+    </div>
+  </div>
+  <!-- ---------------------------------------------------------------------------------------------------------------------- -->
+  <!-- ----------------------------------------------------team-------------------------------------------------------------- -->
+  <div class="team"><span>OUR TEAM</span></div>
+  <div class="container">
+    <div class="card">
+      <div class="card-image loading"><img src="https://images.pexels.com/photos/39866/entrepreneur-startup-start-up-man-39866.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" /></div>
+      <div class="card-info">
+        <h3 class="card-title loading"><span>Aman <span class="yellow-surname">Sharma</span></span></h3>
+        <p class="card-description loading">
+          <span class="personal-info">
+            <span class="info">front end developer</span> <br>
+            Pursuing IT Engineering (VIT Mumbai) <br>
+               Email: <a href="mailto:'yashfalke77@gmail.com'">  yashfalke77@gmail.com</a>
+          </span>
+        </p>
+        <div class="card-mediaIcons">
+          <a href="#" class="loading" target="on_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="{% url 'viewprofile' 9 %}" class="loading" target="on_blank"><i><img src="assets/images/favicon.svg"></a></i>
+          <a href="https://www.instagram.com/yashfalke77/" class="loading" target="on_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-image loading"><img src="https://media.istockphoto.com/photos/portrait-of-handsome-latino-african-man-picture-id1007763808?k=20&m=1007763808&s=612x612&w=0&h=q4qlV-99EK1VHePL1-Xon4gpdpK7kz3631XK4Hgr1ls=" alt="" /></div>
+      <div class="card-info">
+        <h3 class="card-title loading"><span>Harsh <span class="yellow-surname">Sunwani</span></span></h3>
+        <p class="card-description loading">
+          <span class="personal-info">
+            <span class="info">Web Developing Head</span> <br>
+            Pursuing IT Engineering (VIT Mumbai) <br>
+            Email:<a href="mailto:'harshsunwani11@gmail.com'">harshsunwani11@gmail.com</a>
+          </span>
+        </p>
+        <div class="card-mediaIcons">
+          <a href="#" class="loading" target="on_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="{% url 'viewprofile' 7 %}" class="loading" target="on_blank"><i><img src="assets/images/favicon.svg"></i></a>
+          <a href="https://www.instagram.com/harshsunwani/" class="loading" target="on_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-image loading"><img src="https://images.pexels.com/photos/837358/pexels-photo-837358.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" /></div>
+      <div class="card-info">
+        <h3 class="card-title loading"><span>Nikhil <span class="yellow-surname">Jaiswal</span></span></h3>
+        <p class="card-description loading">
+          <span class="personal-info">
+            <span class="info">Marketing and Publicity Head</span> <br>
+            Pursuing IT Engineering (VIT Mumbai) <br>
+            Email: <a href="mailto:'nikjaiswal21@gmail.com'">nikjaiswal21@gmail.com</a>
+          </span>
+        </p>
+        <div class="card-mediaIcons">
+          <a href="#" class="loading" target="on_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="{% url 'viewprofile' 6 %}" class="loading" target="on_blank"><i><img src="assets/images/favicon.svg"></a></i>
+          <a href="#" class="loading" target="on_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ----------------------------------------footer------------------------------------------ -->
+  <footer class="footer" style="background-image: url('./assets/images/footer-bg.png')">
+
+    <div class="footer-top section">
+      <div class="container grid-list">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo-light.svg" width="162" height="50" alt="EduWeb logo">
+          </a>
+
+          <p class="footer-brand-text">
+            Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor incidid unt labore dolore.
+          </p>
+
+          <div class="wrapper">
+            <span class="span">Add:</span>
+
+            <address class="address">70-80 Upper St Norwich NR2</address>
+          </div>
+
+          <div class="wrapper">
+            <span class="span">Call:</span>
+
+            <a href="tel:+011234567890" class="footer-link">+01 123 4567 890</a>
+          </div>
+
+          <div class="wrapper">
+            <span class="span">Email:</span>
+
+            <a href="mailto:info@eduweb.com" class="footer-link">info@eduweb.com</a>
+          </div>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Online Platform</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Courses</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Instructor</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Events</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Instructor Profile</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Purchase Guide</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Gallery</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">News & Articles</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">FAQ's</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Sign In/Registration</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Coming Soon</a>
+          </li>
+
+        </ul>
+
+        <div class="footer-list">
+
+          <p class="footer-list-title">Contacts</p>
+
+          <p class="footer-list-text">
+            Enter your email address to register to our newsletter subscription
+          </p>
+
+          <form action="" class="newsletter-form">
+            <input type="email" name="email_address" placeholder="Your email" required class="input-field">
+
+            <button type="submit" class="btn has-before">
+              <span class="span">Subscribe</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </form>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          Copyright 2024 All Rights Reserved by <a href="#" class="copyright-link">Study Door</a>
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="assets/js/bootstrap.js"></script>
+  <script src="assets/js/script.js"></script>
+ 
+ </section>
+  </html>
